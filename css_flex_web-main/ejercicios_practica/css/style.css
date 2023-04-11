@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: aqua;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+.lenguaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    padding: 10px;
+    font-size: 15px;
+}
+footer{
+    background-color: blue;
+}
+footer >ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
